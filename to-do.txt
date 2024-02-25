@@ -1,0 +1,6 @@
+1. Change background of imgae as black
+2. Add generic text with make it easy, make it simple 
+3. Change head without nav bar, make it transaprent 
+4. Insted of sign up make it make a request 
+5. Add few images 
+6. Send demo and ask about some ideas  
