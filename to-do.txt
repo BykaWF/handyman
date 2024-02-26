@@ -1,6 +1,7 @@
 1. Add request page
 2. Make prettier 
 3. Think about footer
+4. Add generic text for make it simple, easy, flexialbe 
 
 V Change background of imgae as black
 V Add generic text with make it easy, make it simple 
