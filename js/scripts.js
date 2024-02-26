@@ -9,12 +9,12 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     // Array of words to rotate
-    var words = ["SIMPLE", "EASY", "FLEXIBLE"];
-    var rotatingHeading = document.getElementById("rotatingHeading");
+    var words = ["EASY","SIMPLE","FLEXIBLE"];
+    var rotatingHeading = document.querySelector(".rotate"); // Select by class name
     var currentIndex = 0;
 
     setInterval(function() {
-      rotatingHeading.textContent = "MAKE IT " + words[currentIndex];
-      currentIndex = (currentIndex + 1) % words.length;
-    }, 5000); // Rotate every 5 seconds
-  });
+        rotatingHeading.textContent = words[currentIndex];
+        currentIndex = (currentIndex + 1) % words.length;
+    }, 4500); // Rotate every 5 seconds
+});
